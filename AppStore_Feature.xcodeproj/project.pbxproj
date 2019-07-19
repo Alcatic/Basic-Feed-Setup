@@ -12,6 +12,7 @@
 		5AB59CB822E26D0A00D14ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB59CB622E26D0A00D14ADC /* Main.storyboard */; };
 		5AB59CBA22E26D0D00D14ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AB59CB922E26D0D00D14ADC /* Assets.xcassets */; };
 		5AB59CBD22E26D0D00D14ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB59CBB22E26D0D00D14ADC /* LaunchScreen.storyboard */; };
+		5AB59CC522E26DB400D14ADC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB59CC422E26DB400D14ADC /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5AB59CB922E26D0D00D14ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AB59CBC22E26D0D00D14ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AB59CBE22E26D0D00D14ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AB59CC422E26DB400D14ADC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				5AB59CB222E26D0A00D14ADC /* AppDelegate.swift */,
 				5AB59CB422E26D0A00D14ADC /* ViewController.swift */,
+				5AB59CC422E26DB400D14ADC /* CollectionViewCell.swift */,
 				5AB59CB622E26D0A00D14ADC /* Main.storyboard */,
 				5AB59CB922E26D0D00D14ADC /* Assets.xcassets */,
 				5AB59CBB22E26D0D00D14ADC /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				5AB59CB522E26D0A00D14ADC /* ViewController.swift in Sources */,
 				5AB59CB322E26D0A00D14ADC /* AppDelegate.swift in Sources */,
+				5AB59CC522E26DB400D14ADC /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
